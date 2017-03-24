@@ -15,6 +15,7 @@ public class MyService extends Service {
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
         Log.i(TAG,"onStartCommand method called");
+        //
         Runnable r = new Runnable() {
             @Override
             public void run() {
